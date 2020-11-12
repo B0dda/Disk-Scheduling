@@ -1,2 +1,2 @@
-# File-Allocation
+# Disk-Scheduling
 The direct-access nature of disks gives us flexibility in the implementation of files. In almost every case, many files are stored on the same disk. The main problem is how to allocate space to these files so that disk space is utilized effectively, and files can be accessed quickly. Three major methods of allocating disk space are in wide use: contiguous, linked, and indexed. Each method has advantages and disadvantages. Although some systems support all three, it is more common for a system to use one method for all files within a file-system type. You are required to implement a simulator the runs the different file allocation methods shows the content of the different associated tables.
